@@ -30,3 +30,6 @@ unittest
 {
     assert(greet() != null);
 } // end of test case
+
+
+void main() {} // dummy main function.
