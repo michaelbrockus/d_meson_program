@@ -13,7 +13,7 @@ jobs:
       with:
         python-version: '3.9.x'
     - run: pip install meson ninja
-    - run: brew install ccache
+    - run: brew install dmd
     - run: meson setup build -Dwith_tests=enabled
     - run: meson test -C build -v
 
